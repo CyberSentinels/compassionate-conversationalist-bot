@@ -73,7 +73,11 @@ booster_server_count_limit = 300
 @client.event
 async def on_message(message):
     global user_question_count, server_question_count, booster_server_question_count
-    if client.user.mentioned_in(message):
+    role_mentions = message.role_mentions
+    bot_member = message.guild.get_member(client.user.id)
+    if message.author == client.user:
+        return
+    if client.user.mentioned_in(message) or any(role in bot_member.roles for role in role_mentions):
         # Check if the user has admin permissions
         is_administrator = any(role.name.lower() == administrator_role_name.lower() for role in message.author.roles)
         if not is_administrator:
