@@ -5,6 +5,10 @@ LABEL org.opencontainers.image.source="https://github.com/CyberSentinels/discord
 LABEL org.opencontainers.image.description="A Typecasted Chatbot for Discord Powered by ChatGPT and OpenAI API Calls."
 LABEL org.opencontainers.image.authors="simeononsecurity"
 
+ENV DEBIAN_FRONTEND noninteractive
+ENV container docker
+ENV TERM=xterm
+
 # Set the working directory to /app
 WORKDIR /
 
