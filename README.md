@@ -4,9 +4,14 @@
 
 This bot is a Discord-based support agent. It provides helpful responses to user queries, assists with server-related questions, and directs users to relevant resources. The bot is friendly, knowledgeable, and maintains a positive environment. It can also share opinions, preferences, and recommendations related to various topics, creating engaging and informative interactions with users.
 
-[See the bot in action](https://discord.io/cybersentinels)
-
-![](https://discord.io/cybersentinels/badge)
+See the Bot in Action!
+<!-- Website -->
+<a href="https://cybersentinels.org">
+<img src="https://img.shields.io/badge/Website-Visit-<COLOR>?color=green" alt="Website">
+</a>
+<a href="https://discord.io/cybersentinels">
+<img src="https://img.shields.io/discord/1077773186772521011?label=Cyber%20Sentinels%20Discord&logo=discord&logoColor=white" alt="Discord">
+</a>
 
 ## How to run the bot
 ### Using docker
