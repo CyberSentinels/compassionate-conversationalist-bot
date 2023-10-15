@@ -4,7 +4,7 @@
 
 This bot is a Discord-based support agent. It provides helpful responses to user queries, assists with server-related questions, and directs users to relevant resources. The bot is friendly, knowledgeable, and maintains a positive environment. It can also share opinions, preferences, and recommendations related to various topics, creating engaging and informative interactions with users.
 
-[See the bot in action](https://discord.io/cybersentinels)
+[See the bot in action](https://discord.gg/CYVe2CyrXk)
 
 ![](https://discord.io/cybersentinels/badge)
 
