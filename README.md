@@ -9,7 +9,7 @@ See the Bot in Action!
 <a href="https://cybersentinels.org">
 <img src="https://img.shields.io/badge/Website-Visit-<COLOR>?color=green" alt="Website">
 </a>
-<a href="https://discord.io/cybersentinels">
+<a href="https://discord.gg/CYVe2CyrXk">
 <img src="https://img.shields.io/discord/1077773186772521011?label=Cyber%20Sentinels%20Discord&logo=discord&logoColor=white" alt="Discord">
 </a>
 
