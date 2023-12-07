@@ -43,5 +43,8 @@ RUN pip install --upgrade pip && \
 ENV DISCORD_BOT_APP_TOKEN=${DISCORD_BOT_APP_TOKEN}
 ENV OPENAI_API_KEY=${OPENAI_API_KEY}
 
-# Run app.py when the container launches
-CMD ["python", "./bot/main.py"]
+# Make the entry point script executable
+RUN chmod +x entrypoint.sh
+
+# Define the default command to run when the container starts
+CMD ["./entrypoint.sh"]
