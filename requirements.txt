@@ -33,7 +33,7 @@ Jinja2==2.11.3
 MarkupSafe==2.1.2
 multidict==6.0.4
 openai==0.27.2
-orjson==3.8.8
+orjson==3.9.15
 packaging==23.0
 pluggy==1.0.0
 promise==2.3
